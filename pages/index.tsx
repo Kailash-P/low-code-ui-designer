@@ -29,11 +29,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="h-full h-screen">
         <NextSeo
-          title="Craft.js"
-          description="A React framework for building drag-n-drop page editors."
-          canonical="https://craft.js.org/"
+          title="Ramco NoCode"
+          description="A place to preview your ideas ."
+          canonical="https://ramco.com/"
           twitter={{
-            site: 'craft.js.org',
+            site: 'ramco.com',
             cardType: 'summary_large_image',
           }}
         />
@@ -85,7 +85,7 @@ function App() {
                     <Text
                       fontSize="23"
                       fontWeight="400"
-                      text="Craft.js is a React framework for building powerful &amp; feature-rich drag-n-drop page editors."
+                      text="Ramco Systems"
                     ></Text>
                   </Element>
                   <Element
@@ -99,7 +99,7 @@ function App() {
                     <Text
                       fontSize="14"
                       fontWeight="400"
-                      text="Everything you see here, including the editor, itself is made of React components. Craft.js comes only with the building blocks for a page editor; it provides a drag-n-drop system and handles the way user components should be rendered, updated and moved, among other things. <br /> <br /> You control the way your editor looks and behave."
+                      text="Thrive Digitally !!!"
                     ></Text>
                   </Element>
                 </Element>
@@ -239,6 +239,142 @@ function App() {
                         fontWeight="400"
                         text="You can define areas within your React component which users can drop other components into. <br/><br />You can even design how the component should be edited — content editable, drag to resize, have inputs on toolbars — anything really."
                       ></Text>
+                    </Element>
+                  </Element>
+                </Element>
+                <Element
+                  canvas
+                  is={Container}
+                  background={{
+                    r: 234,
+                    g: 245,
+                    b: 245,
+                    a: 1,
+                  }}
+                  flexDirection="column"
+                  width="100%"
+                  height="auto"
+                  padding={['40', '40', '40', '40']}
+                  margin={['0', '0', '40', '0']}
+                  custom={{ displayName: 'Programmatic' }}
+                >
+                  <Element
+                    canvas
+                    background={{
+                      r: 76,
+                      g: 78,
+                      b: 78,
+                      a: 0,
+                    }}
+                    is={Container}
+                    flexDirection="column"
+                    margin={['0,', '0', '20', '0']}
+                    width="100%"
+                    height="auto"
+                    custom={{ displayName: 'Heading' }}
+                  >
+                    <Text
+                      color={{
+                        r: '46',
+                        g: '47',
+                        b: '47',
+                        a: '1',
+                      }}
+                      fontSize="23"
+                      text="Programmatic drag &amp; drop"
+                    ></Text>
+                    <Text
+                      fontSize="14"
+                      fontWeight="400"
+                      text="Govern what goes in and out of your components"
+                    ></Text>
+                  </Element>
+                  <Element
+                    canvas
+                    background={{
+                      r: 76,
+                      g: 78,
+                      b: 78,
+                      a: 0,
+                    }}
+                    is={Container}
+                    flexDirection="row"
+                    margin={['30', '0', '0', '0']}
+                    width="100%"
+                    height="auto"
+                    custom={{ displayName: 'Content' }}
+                  >
+                    <Element
+                      canvas
+                      background={{
+                        r: 0,
+                        g: 0,
+                        b: 0,
+                        a: 0,
+                      }}
+                      is={Container}
+                      padding={['0', '20', '0', '0']}
+                      flexDirection="row"
+                      width="45%"
+                      custom={{ displayName: 'Left' }}
+                    >
+                      <Custom1
+                        background={{
+                          r: 119,
+                          g: 219,
+                          b: 165,
+                          a: 1,
+                        }}
+                        height="auto"
+                        width="100%"
+                        padding={['20', '20', '20', '20']}
+                        margin={['0', '0', '0', '0']}
+                        shadow={40}
+                      />
+                    </Element>
+                    <Element
+                      canvas
+                      background={{
+                        r: 0,
+                        g: 0,
+                        b: 0,
+                        a: 0,
+                      }}
+                      is={Container}
+                      padding={['0', '0', '0', '20']}
+                      flexDirection="column"
+                      width="55%"
+                      custom={{ displayName: 'Right' }}
+                    >
+                      <Custom2
+                        background={{
+                          r: 108,
+                          g: 126,
+                          b: 131,
+                          a: 1,
+                        }}
+                        height="125px"
+                        width="100%"
+                        padding={['0', '0', '0', '20']}
+                        margin={['0', '0', '0', '0']}
+                        shadow={40}
+                        flexDirection="row"
+                        alignItems="center"
+                      />
+                      <Custom3
+                        background={{
+                          r: 134,
+                          g: 187,
+                          b: 201,
+                          a: 1,
+                        }}
+                        height="auto"
+                        width="100%"
+                        padding={['20', '20', '20', '20']}
+                        margin={['20', '0', '0', '0']}
+                        shadow={40}
+                        flexDirection="column"
+                      />
                     </Element>
                   </Element>
                 </Element>
